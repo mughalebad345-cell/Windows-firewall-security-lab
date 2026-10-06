@@ -55,3 +55,19 @@ The connection succeeded with:
 This confirmed that Windows Firewall successfully allowed the inbound connection.
 
 ![Client Connection Allowed](screenshots/04-laptop2-connection-allowed.jpeg)
+
+## Wireshark TCP Port 8080 Traffic Capture
+
+Wireshark was used on Laptop 1 to capture TCP traffic on port `8080`.
+
+The display filter used was:
+
+`tcp.port == 8080`
+
+Laptop 2 then connected to Laptop 1 on TCP port `8080`.
+
+Wireshark successfully captured the TCP connection, including the SYN, SYN-ACK, ACK, and connection closing packets.
+
+This confirmed that traffic on TCP port `8080` was successfully allowed and visible on the network.
+
+![Wireshark TCP Port 8080 Traffic](screenshots/05-wireshark-port-8080-traffic.png)
