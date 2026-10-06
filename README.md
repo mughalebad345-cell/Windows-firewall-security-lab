@@ -54,4 +54,4 @@ The connection succeeded with:
 
 This confirmed that Windows Firewall successfully allowed the inbound connection.
 
-![Client Connection Allowed](04-laptop2-connection-allowed.png.jpeg)
+![Client Connection Allowed](04-laptop2-connection-allowed.jpeg)
