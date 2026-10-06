@@ -38,4 +38,4 @@ The connection failed with:
 
 This confirmed that Windows Firewall successfully blocked the inbound connection.
 
-![Client Connection Blocked](02-client-connection-blocked.png.jpeg)
+![Client Connection Blocked](02-client-connection-blocked.png)
