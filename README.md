@@ -23,3 +23,19 @@ This project demonstrates a hands-on Windows Firewall security lab focused on cr
 
 ## Disclaimer
 This lab is performed only in a controlled and authorized environment for educational purposes.
+
+## TCP Port 8080 Blocking Test
+
+A temporary Python HTTP server was started on port `8080` on Laptop 1.
+
+![Server Running on Port 8080](screenshots/01-server-port-8080-running.png)
+
+Laptop 2 then attempted to connect to Laptop 1 on TCP port `8080`.
+
+The connection failed with:
+
+`TcpTestSucceeded : False`
+
+This confirmed that Windows Firewall successfully blocked the inbound connection.
+
+![Client Connection Blocked](screenshots/02-client-connection-blocked.png)
