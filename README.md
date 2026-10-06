@@ -39,3 +39,19 @@ The connection failed with:
 This confirmed that Windows Firewall successfully blocked the inbound connection.
 
 ![Client Connection Blocked](screenshots/02-client-connection-blocked.jpeg)
+
+## TCP Port 8080 Allowed Connection Test
+
+A temporary Python HTTP server was running on port `8080` on Laptop 1.
+
+![Server Running on Port 8080](screenshots/03-laptop1-port-8080-allowed.png)
+
+Laptop 2 then attempted to connect to Laptop 1 on TCP port `8080`.
+
+The connection succeeded with:
+
+`TcpTestSucceeded : True`
+
+This confirmed that Windows Firewall successfully allowed the inbound connection.
+
+![Client Connection Allowed](screenshots/04-laptop2-connection-allowed.png)
