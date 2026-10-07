@@ -89,3 +89,13 @@ The firewall log recorded the blocked connection with a `DROP TCP` entry for por
 This confirmed that Windows Firewall successfully blocked the connection and also logged the blocked traffic.
 
 ![Laptop 1 Firewall Drop Log](screenshots/08-laptop1-firewall-drop-log.png)
+
+## Documentation
+
+Detailed firewall lab documentation:
+
+[View Firewall Lab Documentation](docs/firewall-lab-documentation.md)
+
+PowerShell commands used in this lab:
+
+[View Firewall PowerShell Commands](configs/firewall-rule-commands.ps1)
