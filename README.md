@@ -71,3 +71,21 @@ Wireshark successfully captured the TCP connection, including the SYN, SYN-ACK, 
 This confirmed that traffic on TCP port `8080` was successfully allowed and visible on the network.
 
 ![Wireshark TCP Port 8080 Traffic](screenshots/05-wireshark-port-8080-traffic.png)
+
+## Windows Firewall Blocked Traffic Logging
+
+Laptop 2 attempted to connect to Laptop 1 on TCP port `8080`.
+
+The connection failed with:
+
+`TcpTestSucceeded : False`
+
+![Laptop 2 Port 8080 Blocked](screenshots/07-laptop2-port-8080-blocked.png)
+
+Laptop 1 then checked the Windows Firewall log.
+
+The firewall log recorded the blocked connection with a `DROP TCP` entry for port `8080`.
+
+This confirmed that Windows Firewall successfully blocked the connection and also logged the blocked traffic.
+
+![Laptop 1 Firewall Drop Log](screenshots/08-laptop1-firewall-drop-log.png)
