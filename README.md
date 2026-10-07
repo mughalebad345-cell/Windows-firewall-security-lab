@@ -80,7 +80,7 @@ The connection failed with:
 
 `TcpTestSucceeded : False`
 
-![Laptop 2 Port 8080 Blocked](screenshots/07-laptop2-port-8080-blocked.png)
+![Laptop 2 Port 8080 Blocked](screenshots/07-laptop2-port-8080-blocked.jpeg)
 
 Laptop 1 then checked the Windows Firewall log.
 
